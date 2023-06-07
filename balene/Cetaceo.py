@@ -1,4 +1,6 @@
-class Cetaceo: #Ordine è "Cetacea"
+class Cetaceo:
+    #Ordine è "Cetacea"
+    #TODO: tenere solo nome, nome scientifico, sottordine (anche nel file txt)
     def __init__(self, nome, sottordine, famiglia, genere, nome_scientifico):
         self.nome = nome #es. "Focena comune"
         self.sottordine = sottordine #es. "Odontoceto"
